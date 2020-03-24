@@ -37,3 +37,7 @@ This project also has all the introductory fundamentals of Python:
 
 It also obviously includes working with a few different modules (Pandas, MatPlotLib, Plotly, NumPy) 
 that help to organize and visualize data.  Which was the main goal of the project.
+
+One more thing.  I did not do any robust error checking.  So if you put in a bad option, you might
+crash the program.  Most notably, when you want to display a column of data, if you either put in
+the column number or an incorrect (not there) column name, you will get errors.
